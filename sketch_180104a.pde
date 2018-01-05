@@ -1,14 +1,10 @@
-// Daniel Shiffman
-// http://codingtra.in
-// http://patreon.com/codingtrain
-// Code for: https://youtu.be/ERQcYaaZ6F0
 
 ArrayList<Circle> circles;
 PImage img;
 
 void setup() {
-  size(1920, 1080);
-  img = loadImage("3.png");
+  size(1920, 1080); //change image res based on image in DATA
+  img = loadImage("3.png"); //LoneWolfsMoon was here
   img.loadPixels();
   circles = new ArrayList<Circle>();
 }
